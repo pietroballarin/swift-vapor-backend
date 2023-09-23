@@ -8,14 +8,18 @@ let package = Package(
     ],
     dependencies: [
         .package(url: "https://github.com/vapor/vapor", .upToNextMajor(from: "4.50.0")),
-        .package(url: "https://github.com/mongodb/mongodb-vapor", .upToNextMajor(from: "1.1.0"))
+        .package(url: "https://github.com/mongodb/mongodb-vapor", .upToNextMajor(from: "1.1.0")),
+        .package(url: "https://github.com/vapor/fluent-mongo-driver.git", branch: "main"),
+        .package(url: "https://github.com/vapor/fluent.git", branch: "main")
     ],
     targets: [
         .target(
             name: "App",
             dependencies: [
                 .product(name: "Vapor", package: "vapor"),
-                .product(name: "MongoDBVapor", package: "mongodb-vapor")
+                .product(name: "MongoDBVapor", package: "mongodb-vapor"),
+                .product(name: "FluentMongoDriver", package: "fluent-mongo-driver"),
+                .product(name: "Fluent", package: "fluent")
             ],
             swiftSettings: [
                 // Enable better optimizations when building in Release configuration. Despite the use of the
