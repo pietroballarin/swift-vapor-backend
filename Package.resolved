@@ -20,57 +20,12 @@
         }
       },
       {
-        "package": "BSON",
-        "repositoryURL": "https://github.com/orlandos-nl/BSON.git",
-        "state": {
-          "branch": null,
-          "revision": "c29936981d39667429d4e0ec03aa8d6a722ea36a",
-          "version": "7.0.31"
-        }
-      },
-      {
         "package": "console-kit",
         "repositoryURL": "https://github.com/vapor/console-kit.git",
         "state": {
           "branch": null,
           "revision": "dcaea6c7f6e29d3ffb80975b24319af85c0afef0",
           "version": "4.8.0"
-        }
-      },
-      {
-        "package": "DNSClient",
-        "repositoryURL": "https://github.com/orlandos-nl/DNSClient.git",
-        "state": {
-          "branch": null,
-          "revision": "8a7b1be0208e6e9d1d9e0a07713e0c0ebd7a2010",
-          "version": "2.3.0"
-        }
-      },
-      {
-        "package": "fluent",
-        "repositoryURL": "https://github.com/vapor/fluent.git",
-        "state": {
-          "branch": "main",
-          "revision": "86654280d5ba52a5af69f3610e3e7776f216e903",
-          "version": null
-        }
-      },
-      {
-        "package": "fluent-kit",
-        "repositoryURL": "https://github.com/vapor/fluent-kit.git",
-        "state": {
-          "branch": null,
-          "revision": "e0bb2b060249b7a501249b1612807b2eaaec28c6",
-          "version": "1.45.0"
-        }
-      },
-      {
-        "package": "fluent-mongo-driver",
-        "repositoryURL": "https://github.com/vapor/fluent-mongo-driver.git",
-        "state": {
-          "branch": "main",
-          "revision": "3ed1c6ca2729d1f35a8a207258f646308cb5da0e",
-          "version": null
         }
       },
       {
@@ -89,15 +44,6 @@
           "branch": null,
           "revision": "588e2f480abd4800f92a5c5f5674164063849dce",
           "version": "1.1.0"
-        }
-      },
-      {
-        "package": "MongoKitten",
-        "repositoryURL": "https://github.com/orlandos-nl/MongoKitten.git",
-        "state": {
-          "branch": null,
-          "revision": "a29b84eb12f05cec9ee26f78770dcec7e63a6771",
-          "version": "6.7.14"
         }
       },
       {
@@ -125,15 +71,6 @@
           "branch": null,
           "revision": "e0539da5b60a60d7381f44cdcf04036f456cee2f",
           "version": "4.8.0"
-        }
-      },
-      {
-        "package": "sql-kit",
-        "repositoryURL": "https://github.com/vapor/sql-kit.git",
-        "state": {
-          "branch": null,
-          "revision": "b2f128cb62a3abfbb1e3b2893ff3ee69e70f4f0f",
-          "version": "3.28.0"
         }
       },
       {
